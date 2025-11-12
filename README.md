@@ -21,3 +21,6 @@ Todas las vistas son **responsivas**, adaptándose a distintos tamaños de panta
 ## Visualización Online
 
 https://lolo456sjhs.github.io/backoffice/
+
+Humberto Barreras Carrisoza
+id:00000252072
