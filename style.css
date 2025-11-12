@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Press Start 2P', cursive;
+  color: #fff;
+}
+
+
+body.login {
+  background: url('img/Fondo_1.png') center / cover no-repeat;
+}
+body.register {
+  background: url('img/Fondo_2.png') center / cover no-repeat;
+}
+body.home {
+  background: url('img/Fondo_3.png') center / cover no-repeat;
+}
+
+.menu-container {
+  background: rgba(0, 0, 0, 0.75);
+  border: 4px solid #3c2a00;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  text-align: center;
+  width: 95%;
+  max-width: 600px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #00ff90;
+  text-shadow: 3px 3px #000;
+  margin-bottom: 2rem;
+}
+
+.menu-form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.4rem;
+  font-size: 0.8rem;
+}
+
+.menu-form input {
+  width: 100%;
+  padding: 0.8rem;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.9rem;
+  border: 2px solid #3c2a00;
+  margin-bottom: 1.2rem;
+  background: #4a4a4a;
+  color: #fff;
+}
+
+.mc-button {
+  background: #3c8527;
+  border: 3px solid #1a4600;
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+  padding: 1rem;
+  font-size: 0.9rem;
+  width: 100%;
+  margin-top: 0.7rem;
+  cursor: pointer;
+  box-shadow: 0 6px #1a4600;
+  transition: all 0.1s;
+}
+
+.mc-button:hover {
+  background: #4caf50;
+  box-shadow: 0 3px #1a4600;
+  transform: translateY(3px);
+}
+
+.menu-link {
+  margin-top: 1.5rem;
+  font-size: 0.7rem;
+}
+
+a {
+  color: #00ff90;
+  text-decoration: none;
+}
+
+.menu-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (max-width: 600px) {
+  .menu-container {
+    padding: 2rem 1rem;
+    max-width: 95%;
+  }
+  .title {
+    font-size: 1.1rem;
+  }
+}
