@@ -46,7 +46,7 @@ https://portfolio-api-three-black.vercel.app/api/v1
 
 ###  CRUD de Proyectos (Home)
 
-#### ✔ Obtener proyectos – `GET /projects`
+####  Obtener proyectos – `GET /projects`
 - Se cargan automáticamente al entrar a Home.  
 - Se muestran en tarjetas con:
   - Título  
