@@ -1,4 +1,4 @@
-# Backoffice - Proyecto Final
+# 1er Avance del proyecto Final - Backoffice
 
 ##  1er Avance – Descripción  
 Este proyecto es un **sistema de backoffice** con temática inspirada en **Minecraft**, desarrollado con **HTML, CSS y JavaScript**.  
