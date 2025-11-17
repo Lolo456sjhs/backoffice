@@ -5,22 +5,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home - Backoffice</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="home.css" />
   <script src="auth.js" defer></script>
 </head>
 
 <body class="home">
+
   <div class="menu-container">
 
-    <h1 class="title">Bienvenido a mi pagina 0w0</h1>
 
-    <p class="menu-text">
-      Has iniciado sesión correctamente lml
-    </p>
+    <div class="home-header">
+      <h1 class="title">Proyectos</h1>
+    </div>
 
-    <button class="mc-button" onclick="logout()">
-      Cerrar sesión
-    </button>
+    <div class="home-content">
+
+      <div class="add-project-panel">
+        <h2>Agregar Proyecto</h2>
+
+        <div id="add-project-form">
+          <label for="project-title">Título</label>
+          <input type="text" id="project-title" />
+
+          <label for="project-description">Descripción</label>
+          <input type="text" id="project-description" />
+
+          <label for="project-tech">Tecnologías (separadas por coma)</label>
+          <input type="text" id="project-tech" />
+
+          <label for="project-repo">Repositorio URL</label>
+          <input type="text" id="project-repo" />
+
+          <button class="mc-button" onclick="addProject()">Agregar</button>
+        </div>
+
+        <div id="edit-project-form" style="display: none;">
+          <h3>Editar Proyecto</h3>
+
+          <label for="edit-project-title">Título</label>
+          <input type="text" id="edit-project-title" />
+
+          <label for="edit-project-description">Descripción</label>
+          <input type="text" id="edit-project-description" />
+
+          <label for="edit-project-tech">Tecnologías (separadas por coma)</label>
+          <input type="text" id="edit-project-tech" />
+
+          <label for="edit-project-repo">Repositorio URL</label>
+          <input type="text" id="edit-project-repo" />
+
+          <button class="mc-button" onclick="updateProject()">Guardar cambios</button>
+          <button class="mc-button" onclick="cancelEdit()">Cancelar</button>
+        </div>
+      </div>
+
+      <div class="projects-panel">
+        <h2>Mis Proyectos</h2>
+        <div id="projects-list" class="projects-list"></div>
+      </div>
+
+    </div>
 
   </div>
+
 </body>
 </html>
