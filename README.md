@@ -1,4 +1,4 @@
-# 1er Avance del proyecto Final - Backoffice
+# AvanceS del proyecto Final
 
 ##  1er Avance – Descripción  
 Este proyecto es un **sistema de backoffice** con temática inspirada en **Minecraft**, desarrollado con **HTML, CSS y JavaScript**.  
@@ -30,7 +30,6 @@ Todas las vistas son **responsivas**, adaptándose a distintos tamaños de panta
   - Panel para mostrar proyectos registrados  
   - Botón y formulario para agregar proyecto  
   - Plantilla de proyecto con botones de eliminar y actualizar  
-- Proyecto subido a GitHub.
 
 ---
 
@@ -51,7 +50,6 @@ Todas las vistas son **responsivas**, adaptándose a distintos tamaños de panta
   - Eliminar proyectos  
   - Visualizar los proyectos agregados  
 - Se habilitó opción de **cerrar sesión**.  
-- Proyecto publicado en GitHub Pages.
 
 ---
 
