@@ -18,53 +18,40 @@ Todas las vistas son **responsivas**, adaptándose a distintos tamaños de panta
 
 ---
 
-##  2do Avance – Funcionalidad con API y CRUD Completo
-
-En este avance se añadió **lógica completa con JavaScript**, conectando el proyecto a la API:
-
-https://portfolio-api-three-black.vercel.app/api/v1
-
-
-###  Autenticación
-
-####  Registro – `POST /auth/register`
-- Funcionalidad para registrar nuevos usuarios desde **Register**.  
-- Se envían los datos: `name`, `email`, `itsonId`, `password`.  
-- Tras un registro exitoso, redirige automáticamente a **Login**.
-
-####  Inicio de Sesión – `POST /auth/login`
-- Validación de credenciales con la API.  
-- Si el login es exitoso:
-  - Se guarda el **token** en `localStorage`.  
-  - Se redirige al **Home**.
-
-####  Protección de Ruta
-- La vista **Home** solo es accesible con token válido.  
-- Si no hay token, se redirige automáticamente a **Login**.
+## 2do Avance – Proyecto Final
+**Requisitos cumplidos:**
+- Se añadió funcionamiento con JavaScript al proyecto backoffice.  
+- Se implementó registro de usuarios con **POST /auth/register** desde la vista Register.  
+- Se implementó inicio de sesión con **POST /auth/login**:  
+  - Se guarda el token en `localStorage`.  
+  - Redirige al Home al iniciar sesión correctamente.  
+- Se habilitó acceso a Home únicamente con token válido.  
+- En Home se agregaron elementos visuales para el CRUD de proyectos:  
+  - Panel para mostrar proyectos registrados  
+  - Botón y formulario para agregar proyecto  
+  - Plantilla de proyecto con botones de eliminar y actualizar  
+- Proyecto subido a GitHub.
 
 ---
 
-###  CRUD de Proyectos (Home)
-
-####  Obtener proyectos – `GET /projects`
-- Se cargan automáticamente al entrar a Home.  
-- Se muestran en tarjetas con:
-  - Título  
-  - Descripción  
-  - Tecnologías  
-  - Enlace al repositorio  
-
-####  Crear proyecto – `POST /projects`
-- Formulario para agregar nuevos proyectos.  
-- Actualiza automáticamente la lista tras crear.
-
-####  Editar proyecto – `PUT /projects/:id`
-- Formulario de edición con los datos del proyecto seleccionado.  
-- Actualiza la lista automáticamente tras guardar cambios.
-
-####  Eliminar proyecto – `DELETE /projects/:id`
-- Cada tarjeta tiene un botón de eliminar.  
-- La vista se actualiza automáticamente tras eliminar.
+## 3er Avance – Proyecto Final
+**Requisitos cumplidos:**
+- Se completó la funcionalidad del CRUD de proyectos con la API:  
+  - **GET /projects**  
+  - **GET /projects/:projectId**  
+  - **POST /projects**  
+  - **PUT /projects/:projectId**  
+  - **DELETE /projects/:projectId**  
+- Se protegieron las rutas usando el token en headers.  
+- Backoffice permite:  
+  - Registrar usuarios  
+  - Iniciar sesión con usuarios registrados  
+  - Agregar proyectos para el usuario que inició sesión  
+  - Editar proyectos  
+  - Eliminar proyectos  
+  - Visualizar los proyectos agregados  
+- Se habilitó opción de **cerrar sesión**.  
+- Proyecto publicado en GitHub Pages.
 
 ---
 
