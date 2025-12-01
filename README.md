@@ -56,7 +56,7 @@ Todas las vistas son **responsivas**, adaptándose a distintos tamaños de panta
 
 ## Visualización Online
 
-[https://lolo456sjhs.github.io/backoffice/](https://lolo456sjhs.github.io/Proyecto_Final_Avances/)
+[https://lolo456sjhs.github.io/backoffice/]([https://lolo456sjhs.github.io/Proyecto_Final_Avances/](https://lolo456sjhs.github.io/Proyecto_Final_Avances/))
 
 Humberto Barreras Carrisoza
 id:00000252072
